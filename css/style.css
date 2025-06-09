@@ -5,11 +5,28 @@
 }
 
 .container-lightblue {
+  display: flex;
+  flex-wrap: nowrap;
   margin: 0;
   padding-top: 20px;
   max-width: 2000px;
   height: 80px;
-  background-color: lightblue;
+  background-color: #ADD8E7;
+
+}
+
+.container-blue {
+  margin: 0;
+  background-color: #00018B;
+  height: 300px;
+}
+
+.container-white {
+  margin: 0;
+  display: flex;
+  gap: 0;
+  background-color: white;
+  height: 300px;
 }
 
 .bg-yellow {
@@ -24,10 +41,51 @@
 .bg-yellow .col-logo {
   justify-content: flex-start;
   width: 20px;
-  color: blueviolet;
+  background-color: blueviolet;
+  color: black;
   height: 30px;
 }
 
 .bg-yellow .col-link {
-  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  color: black;
+  width: 20px;
+  height: 30px;
+}
+
+.bg-yellow .col-login {
+  justify-content: flex-end;
+  background-color: palevioletred;
+  color: black;
+  width: 20px;
+  height: 30px;
+}
+
+.bg-pink {
+  align-items: center;
+  margin: 0 550px;
+  width: 400px;
+  height: 200px;
+  background-color: #EF82ED;
+  border: 2px dotted black;
+}
+
+.bg-skyblue {
+  align-items: center;
+  margin: 6px 40px;
+  width: 800px;
+  height: 200px;
+  background-color: #1E90FF;
+  border: 2px dotted black;
+}
+
+.bg-lightpink {
+  align-items: center;
+  margin: 6px 40px;
+  width: 500px;
+  height: 200px;
+  background-color: #FFC0CA;
+  border: 2px dotted black;
 }
