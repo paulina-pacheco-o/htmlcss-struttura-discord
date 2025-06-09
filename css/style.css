@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-lightblue {
+  margin: 0;
+  padding-top: 20px;
+  max-width: 2000px;
+  height: 80px;
+  background-color: lightblue;
+}
+
+.bg-yellow {
+  align-items: center;
+  margin: 6px 500px;
+  width: 600px;
+  height: 30px;
+  background-color: #DAA51E;
+  border: 2px dotted black;
+}
+
+.bg-yellow .col-logo {
+  justify-content: flex-start;
+  width: 20px;
+  color: blueviolet;
+  height: 30px;
+}
+
+.bg-yellow .col-link {
+  display: inline-block;
+}
