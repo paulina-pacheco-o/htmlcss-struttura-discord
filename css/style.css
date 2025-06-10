@@ -187,7 +187,7 @@ hr {
   padding: 10px 0 10px 50px;
   width: 13%;
   height: 300px;
-  color: #F08180;
+  background-color: #F08180;
   border: 2px dotted black;
 }
 
@@ -200,7 +200,7 @@ hr {
   padding: 10px 0 10px 20px;
   width: 8.3%;
   height: 300px;
-  color: #20B3AA;
+  background-color: #20B3AA;
   border: 2px dotted white;
 }
 
