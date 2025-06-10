@@ -8,7 +8,7 @@
   display: flex;
   flex-wrap: nowrap;
   margin: 0;
-  padding-top: 20px;
+  padding: 25px 350px 20px 380px;
   max-width: 2000px;
   height: 80px;
   background-color: #ADD8E7;
@@ -17,6 +17,8 @@
 
 .container-blue {
   margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #00018B;
   height: 300px;
 }
@@ -31,8 +33,7 @@
 
 .bg-yellow {
   align-items: center;
-  margin: 6px 500px;
-  width: 600px;
+  width: 750px;
   height: 30px;
   background-color: #DAA51E;
   border: 2px dotted black;
@@ -65,8 +66,8 @@
 
 .bg-pink {
   align-items: center;
-  margin: 0 550px;
-  width: 400px;
+  margin: 0px 500px 10px 500px;
+  width: 450px;
   height: 200px;
   background-color: #EF82ED;
   border: 2px dotted black;
@@ -74,18 +75,18 @@
 
 .bg-skyblue {
   align-items: center;
-  margin: 6px 40px;
-  width: 800px;
-  height: 200px;
+  margin: 50px 0px 50px 400px;
+  width: 450px;
+  height: 250px;
   background-color: #1E90FF;
   border: 2px dotted black;
 }
 
 .bg-lightpink {
   align-items: center;
-  margin: 6px 40px;
-  width: 500px;
-  height: 200px;
+  margin: 50px 50px 50px 0;
+  width: 250px;
+  height: 250px;
   background-color: #FFC0CA;
   border: 2px dotted black;
 }
