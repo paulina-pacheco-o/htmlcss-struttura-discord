@@ -27,8 +27,23 @@
   margin: 0;
   display: flex;
   gap: 0;
+  padding-bottom: 20px;
   background-color: white;
-  height: 300px;
+  height: 350px;
+}
+
+.container-grey {
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0;
+  background-color: #D3D3D3;
+  height: 350px;
+}
+
+.bg-skyblue,
+.bg-lightpink {
+  padding-bottom: 20px;
 }
 
 .bg-yellow {
@@ -75,7 +90,7 @@
 
 .bg-skyblue {
   align-items: center;
-  margin: 50px 0px 50px 400px;
+  margin: 50px 0px 10px 400px;
   width: 450px;
   height: 250px;
   background-color: #1E90FF;
@@ -85,6 +100,24 @@
 .bg-lightpink {
   align-items: center;
   margin: 50px 50px 50px 0;
+  width: 250px;
+  height: 250px;
+  background-color: #FFC0CA;
+  border: 2px dotted black;
+}
+
+.bg-skyblue-s {
+  align-items: center;
+  margin: 50px 415px 50px 0px;
+  width: 450px;
+  height: 250px;
+  background-color: #1E90FF;
+  border: 2px dotted black;
+}
+
+.bg-lightpink-s {
+  align-items: center;
+  margin: 50px 0px 50px 30px;
   width: 250px;
   height: 250px;
   background-color: #FFC0CA;
